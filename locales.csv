@@ -1,0 +1,6 @@
+key;en_US
+actions.world_clock.name;World Clock
+actions.world_clock.city;City label
+actions.world_clock.timezone;Search timezone
+actions.world_clock.time_format;Time format
+actions.world_clock.show_date;Show date

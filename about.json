@@ -1,0 +1,14 @@
+{
+  "author": "Larkum",
+  "release-notes": {
+    "path": "release-notes.html",
+    "version": "0.1.0"
+  },
+  "credits": {},
+  "comments": {
+    "en_US": "A small, offline-first world clock plugin for StreamController."
+  },
+  "copyright": "Copyright (C) 2026 Larkum",
+  "support": "https://github.com/larkum/StreamController-WorldClocks/issues",
+  "acknowledgements": {}
+}
