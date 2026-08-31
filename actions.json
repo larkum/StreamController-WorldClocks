@@ -1,0 +1,36 @@
+{
+  "plugin": {
+    "description": "Displays configurable world clocks with automatic daylight-saving handling and an offline searchable timezone catalog.",
+    "requirements": "StreamController 1.5.0-beta.16 or newer and the system timezone database."
+  },
+  "actions": {
+    "WorldClock": {
+      "description": "Shows the current time and optional date for a selected world timezone. It updates automatically and needs no press.",
+      "settings": {
+        "city": {
+          "type": "string",
+          "default": "London",
+          "description": "Short city or location label shown at the top of the key.",
+          "example": "Tokyo"
+        },
+        "timezone": {
+          "type": "string",
+          "default": "Europe/London",
+          "description": "IANA timezone selected through the searchable country, city, state, region, and timezone catalog.",
+          "example": "Asia/Tokyo"
+        },
+        "time_format": {
+          "type": "string",
+          "default": "24h",
+          "values": ["24h", "12h"],
+          "description": "Choose a 24-hour or 12-hour clock."
+        },
+        "show_date": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the abbreviated day and date below the time."
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,10 @@
+import os
+
+import gi
+
+gi.require_version("Gtk", "4.0")
+from gi.repository import Gtk
+
 from src.backend.DeckManagement.InputIdentifier import Input
 from src.backend.PluginManager.ActionHolder import ActionHolder
 from src.backend.PluginManager.ActionInputSupport import ActionInputSupport
@@ -17,6 +24,9 @@ class WorldClocksPlugin(PluginBase):
                 action_id_suffix="WorldClock",
                 action_name=self.locale_manager.get("actions.world_clock.name"),
                 description="Displays the current time and optional date for a configured world timezone.",
+                icon=Gtk.Picture.new_for_filename(
+                    os.path.join(self.PATH, "assets", "world-clocks-icon-v2.png")
+                ),
                 requirements="A valid IANA timezone name from the system timezone database.",
                 settings_schema={
                     "city": {

@@ -1,5 +1,7 @@
 # World Clocks for StreamController
 
+![World Clocks banner](store/Thumbnail.png)
+
 An offline world-clock action for StreamController 1.5.0-beta.16.
 
 ## Install locally

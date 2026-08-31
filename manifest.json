@@ -5,12 +5,12 @@
   "minimum-app-version": "1.5.0-beta.16",
   "id": "com_larkum_WorldClocks",
   "github": "https://github.com/larkum/StreamController-WorldClocks",
-  "thumbnail": "assets/thumbnail.png",
+  "thumbnail": "store/Thumbnail.png",
   "descriptions": {
     "en_US": "Put configurable world clocks on your Stream Deck. Times update automatically and daylight-saving changes are handled by the system timezone database."
   },
   "short-descriptions": {
     "en_US": "Configurable world clocks for StreamController"
   },
-  "tags": ["Clock", "Time", "Productivity"]
+  "tags": ["Utilities", "Clock", "Time", "Productivity"]
 }
