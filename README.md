@@ -40,6 +40,10 @@ timezone database.
 
 No additional Python packages or network services are required.
 
+##Support
+
+Visit my Discord Server for Support https://discord.gg/scgSjec98P
+
 ## License
 
 MIT
